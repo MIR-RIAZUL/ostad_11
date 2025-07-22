@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'class3.dart';
 import 'home.dart';
 
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner:false,
       title: 'flutter batch 11',
-      home:Home(),
+      home:class3(),
     );
   }
 }
