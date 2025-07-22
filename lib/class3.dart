@@ -65,7 +65,41 @@ class class3 extends StatelessWidget {
               print("deleted");
             }, icon: Icon(Icons.delete,
             size: 50,
-            color: Colors.red,))
+            color: Colors.red,)),
+
+            GestureDetector(
+              onTap: (){
+                print("tapped on Gesture decetor");
+              },
+              child: Text("tap area",style:TextStyle(
+                color: Colors.black,
+                fontSize: 40,
+
+              ),),
+            ),
+
+           SizedBox(height: 20,),
+
+           InkWell(
+             onTap: (){
+               print("tapped on inkwell");
+             },
+             child: Text("inkwell",style: TextStyle(
+               color: Colors.black,
+               fontSize: 40,)),
+           ),
+
+            Padding(
+              // padding: EdgeInsets.all(50),
+              // padding: EdgeInsets.only(left: 50,right:20,top: 50,bottom: 30),
+              padding: EdgeInsets.symmetric(horizontal: 50,vertical: 20),
+
+              child: Text("this is for padding",style: TextStyle(
+                color: Colors.black,
+                fontSize: 40,
+              ),),
+            ),
+
 
 
           ]
