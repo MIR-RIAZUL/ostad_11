@@ -12,12 +12,13 @@ class class3 extends StatelessWidget {
       backgroundColor: Colors.lightBlueAccent.shade400,
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
-        title: Text("app bar"),
+        title: Text("App Bar"),
         centerTitle:true,
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             ElevatedButton(
                 style:ElevatedButton.styleFrom(
