@@ -101,8 +101,6 @@ class class3 extends StatelessWidget {
               ),),
             ),
 
-
-
           ]
         ),
       ),
