@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class listview extends StatelessWidget {
-  listview({super.key});
+  final name;
+  listview({super.key, required this.name});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +20,7 @@ class listview extends StatelessWidget {
               leading: Icon(Icons.phone),
               trailing: Icon(Icons.delete, color: Colors.red),
               title: Text("RIAZUL ISLAM"),
-              subtitle: Text("01516512119"),
+              subtitle: Text(name),
             ),
           );
         },

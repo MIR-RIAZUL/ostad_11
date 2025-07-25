@@ -1,3 +1,4 @@
+import 'package:first/module_8/listview.dart';
 import 'package:flutter/material.dart';
 
 class class2 extends StatelessWidget {
@@ -28,7 +29,7 @@ class class2 extends StatelessWidget {
             ),
             SizedBox(height: 20),
 
-            //Image.asset('asset/tow.jpeg', height: 150, width: 250),
+            Image.asset('asset/q.jpeg', height: 250, width: 250),
             SizedBox(height: 20),
 
             Text(
@@ -90,8 +91,15 @@ class class2 extends StatelessWidget {
                     ElevatedButton(
                       onPressed: () {
                         if (_formKey.currentState!.validate()) {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(content: Text("Log in succesfully")),
+                          // ScaffoldMessenger.of(context).showSnackBar(
+                          //   SnackBar(content: Text("Log in succesfully")),
+                          // );
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) =>
+                                  listview(name: phonecontrollor.text),
+                            ),
                           );
                         }
                       },
