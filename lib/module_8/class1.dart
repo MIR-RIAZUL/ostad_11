@@ -11,7 +11,7 @@ class class1 extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("module 8 class 1"),
+        title: Text("module 8 class   1"),
         centerTitle: true,
         backgroundColor: Colors.blue,
       ),
