@@ -1,5 +1,6 @@
-import 'package:first/module_9/class_2_module_9.dart';
 import 'package:flutter/material.dart';
+
+import 'module_9/own_widget.dart';
 
 class MyApp extends StatelessWidget {
   MyApp({super.key});
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'flutter batch 11',
-      home: class2_m9(),
+      home: OwnWidget(),
     );
   }
 }
