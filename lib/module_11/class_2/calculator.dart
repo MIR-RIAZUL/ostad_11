@@ -38,3 +38,5 @@ class _CalculatorState extends State<Calculator> {
     );
   }
 }
+
+// This is a simple calculator app with a single button for '1'.
